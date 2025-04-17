@@ -24,6 +24,27 @@
             height: 100vh;
         }
 
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            padding: 10px 20px;
+            color: white;
+            font-size: 2rem;
+            font-weight: bold;
+        }
+
+        .left-text {
+            text-align: left;
+            color: yellow; 
+        }
+
+        .right-text {
+            text-align: right;
+            color: yellow;
+        }
+
         .board {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
@@ -81,6 +102,10 @@
 </head>
 <body>
     <div class="game-container">
+        <div class="header">
+            <div class="left-text">TIC-TAC-TOE</div>
+            <div class="right-text">GAME PLAY</div>
+        </div>
         <h1 class="status" id="status">Player X's turn</h1>
         <div class="board" id="board">
             <div class="cell" data-index="0"></div>
