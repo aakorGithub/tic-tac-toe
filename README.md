@@ -2,6 +2,8 @@
 
 A simple and interactive web-based Tic-Tac-Toe game implemented using HTML, CSS, and JavaScript. The game features a clean, modern interface and can be played directly in any web browser.
 
+
+
 ## Project Structure
 
 ```
@@ -33,5 +35,5 @@ tic-tac-toe
 3. Players alternate between X and O
 4. The first player to get three in a row (horizontally, vertically, or diagonally) wins
 5. Click the Reset button to start a new game at any time
-
+6. PLAY HERE => https://tictactoegameplayproject.netlify.app/
 Enjoy playing Tic-Tac-Toe!
